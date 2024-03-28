@@ -35,8 +35,6 @@ int squareNumber(int number){
 
 //calculates the c value in the equation a^2 + b^2 = c^2
 double calculateC(int a, int b){
-    int aSquared = squareNumber(a);
-    int bSquared = squareNumber(b);
     // cout << "a squared: " << aSquared << "b squared: " << bSquared << '\n';
     double cSquared = squareNumber(a) + squareNumber(b);
     return sqrt(double(cSquared));
