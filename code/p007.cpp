@@ -26,7 +26,7 @@ bool isPrime(int value){
     }
     return isPrime;
 }
-
+//finds the nth prime, ex. 6th prime = 13
 int findNthPrime(int n){
     int currentNumber = 0;
     //add 1 to n to account for the 0th index
@@ -42,6 +42,7 @@ int findNthPrime(int n){
 
 int main(){
     int nthNumber = 6;
+    //could change the 'th' or 'st' depending on value but that's outside the scope of the problem
     cout << "The " << nthNumber << "th prime is: " << findNthPrime(nthNumber) << '\n';
 
     nthNumber = 10;
