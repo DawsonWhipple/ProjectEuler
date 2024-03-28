@@ -1,5 +1,5 @@
 /***********************************************
-* Title:        Project Euleur Problem 6: Smallest Multiple
+* Title:        Project Euleur Problem 6: Sum Square Difference
 * Author:       Dawson Whipple
 * Date:         3/28/24
 * Description:  The sum of the squares of the first ten natural numbers is,
